@@ -29,11 +29,11 @@ npx svn-patch-exporter
 ### Option 2: Install globally to access from anywhere
 ####  I. Install globally
 ```bash
-    npm i -g svn-patch-exporter
+npm i -g svn-patch-exporter
 ```
 #### II. Run using following command
 ```bash
-    svn-patch-exporter
+svn-patch-exporter
 ```
 ---
 
