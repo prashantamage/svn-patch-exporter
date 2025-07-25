@@ -17,24 +17,25 @@
 
 ## 📦 Installation
 
-### Option 1: Run instantly using `npx` (no install needed)
+### Option 1: Install Install Locally
+####  I. Install Locally
+```bash
+npm i svn-patch-exporter
+```
 
+#### II. Run using following command
 ```bash
 npx svn-patch-exporter
 ```
-
-### Option 2: Install globally
-
+### Option 2: Install globally to access anywhere
+####  I. Install globally
 ```bash
-npm install -g svn-patch-exporter
+    npm i -g svn-patch-exporter
 ```
-
-Then run:
-
+#### II. Run using following command
 ```bash
-svn-patch-exporter
+    svn-patch-exporter
 ```
-
 ---
 
 ## ▶️ How to Use
@@ -42,7 +43,7 @@ svn-patch-exporter
 1. Launch using `npx svn-patch-exporter` or `svn-patch-exporter`
 2. Add one or more revision numbers
 3. Choose a folder for each revision
-4. Click **Export** — patch files are generated in ZIP format
+4. Click **Export** — patch files are generated in specified folder.
 5. Done ✅
 
 ---
@@ -90,7 +91,7 @@ npm run dist
 
 - Node.js 18+ (recommended)
 - npm 9+
-- Subversion CLI (only if used in batch files)
+- Subversion CLI.
 
 ---
 
@@ -101,9 +102,6 @@ npm run dist
 
 ### ❓ Is it cross-platform?
 Yes — works on Windows, macOS, and Linux.
-
-### ❓ Can I use my own `.bat` script?
-Yes! Just point the app logic to your script or modify the batch integration in `main.js`.
 
 ---
 
