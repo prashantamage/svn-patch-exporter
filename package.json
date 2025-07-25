@@ -1,6 +1,6 @@
 {
   "name": "svn-patch-exporter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tool to export SVN patches for specific revisions.",
   "author": {
     "name": "Prashant Amage",
