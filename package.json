@@ -1,0 +1,36 @@
+{
+  "name": "svn-patch-exporter",
+  "version": "1.0.0",
+  "description": "Tool to export SVN patches for specific revisions.",
+  "author": {
+    "name": "Prashant Amage",
+    "email": "amageprashant@gmail.com",
+    "url": "https://prashant.amage.in"
+  },
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.svn.exporter",
+    "productName": "SVN Patch Exporter",
+    "icon": "assets/icon.ico",
+    "files": [
+      "**/*"
+    ],
+    "asar": false,
+    "win": {
+    "target": "nsis"
+  },
+    "publish": null
+  }
+}
