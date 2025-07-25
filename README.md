@@ -8,10 +8,9 @@
 
 - ✅ Export SVN patches for specific revisions
 - ✅ Supports multiple revision-folder pairs
-- ✅ Generates patch files as ZIP
 - ✅ Clean and modern Electron UI
 - ✅ Works fully offline — no backend required
-- ✅ Easily extendable with custom `.bat` scripts
+- ✅ Clean and meaningfull logs on screen
 
 ---
 
@@ -27,7 +26,7 @@ npm i svn-patch-exporter
 ```bash
 npx svn-patch-exporter
 ```
-### Option 2: Install globally to access anywhere
+### Option 2: Install globally to access from anywhere
 ####  I. Install globally
 ```bash
     npm i -g svn-patch-exporter
